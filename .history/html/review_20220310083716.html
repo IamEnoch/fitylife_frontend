@@ -29,10 +29,7 @@
 		<div class="prev-comments">
 		
 			<div class="single-item">
-				<p>Email:</p>
-				<br><br><br>	
-				<p>Comments:</p>
-				<br><br><br>	
+				<a href="mailto:<?php echo $row['email']; ?>"><?php echo $row['email']; ?></a>
 				<p>
 		</div>
 	</div>

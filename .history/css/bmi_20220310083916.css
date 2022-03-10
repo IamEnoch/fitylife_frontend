@@ -19,8 +19,7 @@ a{
 }
 
 .bmi{
-    background: #00b894;
-
+background-color:#926239;
 }
 #for ,#weightInput,#heightInput{
     display: flex;

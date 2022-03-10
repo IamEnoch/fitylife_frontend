@@ -12,15 +12,14 @@ a{
     color:#926239;
 }
 .jumbotron{
-    background-color: #398892;
+    background-color: #926239;
 }
 #cool{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .bmi{
-    background: #00b894;
-
+background-color:#926239;
 }
 #for ,#weightInput,#heightInput{
     display: flex;
