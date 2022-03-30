@@ -26,16 +26,16 @@
 
   <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" href="./index.html">Home</a>
+            <a class="nav-link active" href="./index.php">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./bmi.html">BMI</a>
+            <a class="nav-link" href="./bmi.php">BMI</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./routine.html">Routine</a>
+            <a class="nav-link" href="./routine.php">Routine</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./review.html">Reviews</a>
+            <a class="nav-link" href="./review.php">Reviews</a>
         </li>
     </ul>
 

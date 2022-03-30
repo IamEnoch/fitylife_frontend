@@ -38,7 +38,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./login.html">SIGN UP / LOGIN</a></li>
+            <li><a href="./login.php">SIGN UP / LOGIN</a></li>
             
           </ul>
         </div>
