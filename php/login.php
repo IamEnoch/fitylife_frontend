@@ -19,28 +19,28 @@
                    <img src="https://raw.githubusercontent.com/waithakaFM/signup-frank-projo/main/life.jpg" alt="fittylife" class="francis">
                <div class="francis-front">
                    <h2>Please input your personal info</h2>
-                   <form action="./about.html" method="POST" enctype="multipart/form" >
+                   <form action="../db/sign.php" method="POST" enctype="multipart/form-data" >
                        <div class="francis-form-holder">
                            <input type="text" name="name" id="name" required placeholder="Your Name">
                            <input type="text" name="number" id="number" required placeholder="Your Phone Number">
                            <input type="email" name="email" id="email" required placeholder="Your email address">
                            <input type="password" name="password" id="password" placeholder="Password" required>
-                           <input type="password" name="password" id="password" placeholder="Confirm your Password" required>
-                           <button type="submit"><a href="./bmi.html">Sign Up</a> </button>
-                           <div class="francis-checkbox">
+                           <input type="password" name="confirmPassword" id="password" placeholder="Confirm your Password" required>
+                           <button type="submit">Sign Up</a> </button>
+                           <!-- <div class="francis-checkbox">
                             <input type="checkbox" class="francis-custom-control-input" id="customCheck1">
                             <label class="francis-custom-control-label" for="customCheck1" required>Agree terms and conditions</label>
-                           </div>
+                           </div> -->
                            <p>Already have an account? <span><a href="javascript:void(0)" id="logInLink" class="logInLink">Log In</a></span></p>
                        </div>
                    </form>
                </div>
-               <div class="francis-back" >
-                   <form action="">
+               <div class="francis-back" method="POST" enctype="multipart/form" >
+                   <form action="../db/login.php" method="POST" enctype="multipart/form-data">
                        <div class="francis-form-holder">
-                           <input type="text" name="email" id="email" placeholder="Your Email" required>
+                           <input type="email" name="email" id="email" placeholder="Your Email" required>
                            <input type="password" name="password" id="password" placeholder="Password" required>
-                           <button type="submit"><a href="./bmi.php">Login</a> </button>
+                           <button type="submit">Login</a> </button>
                            <p>Don't have a account? <span><a href="javascript:void(0)" id="logInLink2" class="logInLink">Sign
                             Up</a></span></p>
                        </div>

@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="wrapper">
-		<form action="" method="POST" class="form">
+		<form action="../db/comments.php" method="POST" class="form">
 			<div class="row">
 				<div class="input-group">
 					<label for="email">Email</label>
@@ -27,13 +27,36 @@
 			</div>
 		</form>
 		<div class="prev-comments">
+		<?php 
+			
+			$sql = "SELECT * FROM comments";
+			$result = mysqli_query($conn, $sql);
+			if (mysqli_num_rows($result) > 0) {
+				while ($row = mysqli_fetch_assoc($result)) {
+
+			?>
+
+            <div class="single-item">
+                <a href="<?php ?>"><?php echo $row['email']; ?></a>
+                <p><?php echo nl2br($row['comment']); ?></p>
+                <div class="input-group">
+                    <button class="btn"><a href="index.php?deleteid=<?php echo $row['id']; ?>"> Delete
+                            Comment</a></button>
+                </div>
+            </div>
+            <?php
+
+					}
+				}
+				
+				?>
 		
-			<div class="single-item">
+			<!-- <div class="single-item">
 				<p>Email:</p>
 				<br><br><br>	
 				<p>Comments:</p>
 				<br><br><br>	
-				<p>
+				<p> -->
 		</div>
 	</div>
 </body>

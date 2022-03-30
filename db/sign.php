@@ -1,9 +1,7 @@
 <?php 
     include ('conn.php');
 
-    $fname = $_POST['fname'];
-    $lname = $_POST['lname'];
-    $name = $fname." ".$lname;
+    $name = $_POST['name'];
     $number = $_POST['number'];
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -13,17 +11,17 @@
 
     if($password == $confirmPassword){
 
-    $sql1="INSERT INTO signup(name, phoneNumber, emailAddress, password) VALUES('$name','$number','$email','$password')";
-    $result1=mysqli_query($con,$sql1);
+    $sql1="INSERT INTO signup(name, phoneNumber, emailAddress, userPassword) VALUES('$name','$number','$email','$password')";
+    $result1=mysqli_query($conn,$sql1);
     
     if(($result1)){
-        echo '<script> window.location.href ="../bmi.php";</script>';
+        echo '<script> window.location.href ="../php/bmi.php";</script>';
     }
     else{
 
         echo '<script> alert("ERROR:Please insert correct values in all fields!!! ");</script>';
     
     }
-    mysqli_close($con);
+    mysqli_close($conn);
 } else echo '<script> alert(PASSWORDS NOT MATCHING!!!!);</script>'
 ?>
