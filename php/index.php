@@ -93,10 +93,12 @@
 
           <div >
             <ul class="social-icons">
-              <li><a class="facebook" href="https://www.facebook.com/GoogleKenya/"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              <li><a class="facebook" href="https://www.gymshark.com/"><i class="fa fa-google"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/GymSharkUpdates"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="https://www.instagram.com/gymshark/"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/company/gymshark/"><i class="fa fa-linkedin"></i></a></li>   
+
+
             </ul>
           </div>
       </div>

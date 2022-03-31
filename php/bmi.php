@@ -17,16 +17,16 @@
 <body>
     <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" href="./index.php">Home</a>
+            <a class="nav-link active" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./bmi.php">BMI</a>
+            <a class="nav-link" href="bmi.php">BMI</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./routine.php">Routine</a>
+            <a class="nav-link" href="routine.php">Routine</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="./review.php">Reviews</a>
+            <a class="nav-link" href="review.php">Reviews</a>
         </li>
     </ul>
 
